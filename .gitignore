@@ -1,0 +1,32 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Dados (arquivo grande - baixar manualmente via Portal INEP)
+*.csv
+data/
+
+# Saídas geradas
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
